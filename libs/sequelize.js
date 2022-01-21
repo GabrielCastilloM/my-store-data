@@ -13,6 +13,6 @@ const sequilize = new Sequelize(URI, {
 });
 
 setupModels(sequilize);
-sequilize.sync();
+
 
 module.exports = sequilize;
